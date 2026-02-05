@@ -5,3 +5,87 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Shared styles */
+.display-flex {
+  display: flex;
+} 
+/* Header background color  */
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* Dark 1 */
+.dark1{
+
+    color: #131313;
+}
+
+.dark2{
+    color:#424242;
+}
+.dark3{
+   color: #727272; 
+}
+
+/* button */
+.btn-primary{
+  background-color: #FF900E;
+  color: white;
+  padding:1.2rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+
+}
+
+
+/* Header styles */
+
+.nav-iteam{
+  list-style: none;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-links{
+  display: flex;
+ 
+}
+.nav-link{
+  text-decoration: none;
+   
+}
+
+.navbar{
+  justify-content: space-around;
+  align-items: center;
+}
+.brand{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Banner */
+.banner{
+  text-align: center;
+
+}
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto  ;
+  text-align: center;
+margin-bottom: 50px;
+  
+}
+.banner-title{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.banner-description{
+  font-size: 1rem;
+
+  
+}
+.banner-image{
+  max-width: 100%;
+}
